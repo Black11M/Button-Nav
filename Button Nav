@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black.M</title>
+    <style type="text/css">
+        body {
+    font-family: var(--font-style);
+    background-color: #1C2A44;
+        }
+        a {
+            margin: auto;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        a:hover:after {
+            transform: scaleX(1);
+        }
+        .lala{
+            height: 50px;
+            width: 70px;
+            border-radius: 50px;
+            margin: 45px;
+            color: #424242;
+            box-shadow: 0 4px 8px 0 #3d3d3d, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .nini {
+            margin: auto;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            cursor: pointer;
+            
+        }
+    </style>
+    <body>
+        <a href="" class="nini">
+            <button class="lala">HTML</button>
+        </a>
+        <a href="" class="nini">
+            <button class="lala">CSS</button>
+        </a>
+        <a href="" class="nini">
+            <button class="lala">Js</button>
+        </a>
+        <a href="" class="nini">
+            <button class="lala">SQL</button>
+        </a>
+        <a href="" class="nini">
+            <button class="lala">PYTHON</button>
+        </a>
+        <a href="" class="nini">
+            <button class="lala">C#</button>
+        </a>
+    </body>
+    </html>
